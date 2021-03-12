@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		18F6107825FB61EC00A94949 /* ArchiVMLMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6107725FB61EC00A94949 /* ArchiVMLMApp.swift */; };
-		18F6107A25FB61EC00A94949 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6107925FB61EC00A94949 /* ContentView.swift */; };
 		18F6107C25FB61EF00A94949 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F6107B25FB61EF00A94949 /* Assets.xcassets */; };
 		18F6107F25FB61EF00A94949 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F6107E25FB61EF00A94949 /* Preview Assets.xcassets */; };
+		18F6108825FB620600A94949 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6108725FB620600A94949 /* Post.swift */; };
+		18F6108B25FB622100A94949 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6108A25FB622100A94949 /* PostView.swift */; };
+		18F6108E25FB628400A94949 /* PostManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6108D25FB628400A94949 /* PostManager.swift */; };
+		18F6109125FB62B200A94949 /* PostList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6109025FB62B200A94949 /* PostList.swift */; };
+		18F6109425FB641F00A94949 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6109325FB641F00A94949 /* NewPostView.swift */; };
+		18F6109725FB64D900A94949 /* NewPostView+Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6109625FB64D900A94949 /* NewPostView+Logic.swift */; };
+		18F6109B25FB7EDC00A94949 /* Post+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F6109A25FB7EDC00A94949 /* Post+Identifiable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F6107425FB61EC00A94949 /* ArchiVMLM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchiVMLM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F6107725FB61EC00A94949 /* ArchiVMLMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiVMLMApp.swift; sourceTree = "<group>"; };
-		18F6107925FB61EC00A94949 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		18F6107B25FB61EF00A94949 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F6107E25FB61EF00A94949 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		18F6108025FB61EF00A94949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F6108725FB620600A94949 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		18F6108A25FB622100A94949 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		18F6108D25FB628400A94949 /* PostManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostManager.swift; sourceTree = "<group>"; };
+		18F6109025FB62B200A94949 /* PostList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostList.swift; sourceTree = "<group>"; };
+		18F6109325FB641F00A94949 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		18F6109625FB64D900A94949 /* NewPostView+Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewPostView+Logic.swift"; sourceTree = "<group>"; };
+		18F6109A25FB7EDC00A94949 /* Post+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Post+Identifiable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				18F6107725FB61EC00A94949 /* ArchiVMLMApp.swift */,
-				18F6107925FB61EC00A94949 /* ContentView.swift */,
+				18F6108725FB620600A94949 /* Post.swift */,
+				18F6109A25FB7EDC00A94949 /* Post+Identifiable.swift */,
+				18F6108A25FB622100A94949 /* PostView.swift */,
+				18F6109025FB62B200A94949 /* PostList.swift */,
+				18F6109325FB641F00A94949 /* NewPostView.swift */,
+				18F6109625FB64D900A94949 /* NewPostView+Logic.swift */,
+				18F6108D25FB628400A94949 /* PostManager.swift */,
 				18F6107B25FB61EF00A94949 /* Assets.xcassets */,
 				18F6108025FB61EF00A94949 /* Info.plist */,
 				18F6107D25FB61EF00A94949 /* Preview Content */,
@@ -138,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F6107A25FB61EC00A94949 /* ContentView.swift in Sources */,
+				18F6108825FB620600A94949 /* Post.swift in Sources */,
+				18F6109B25FB7EDC00A94949 /* Post+Identifiable.swift in Sources */,
+				18F6109125FB62B200A94949 /* PostList.swift in Sources */,
+				18F6109425FB641F00A94949 /* NewPostView.swift in Sources */,
+				18F6108E25FB628400A94949 /* PostManager.swift in Sources */,
+				18F6108B25FB622100A94949 /* PostView.swift in Sources */,
+				18F6109725FB64D900A94949 /* NewPostView+Logic.swift in Sources */,
 				18F6107825FB61EC00A94949 /* ArchiVMLMApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

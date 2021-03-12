@@ -11,7 +11,8 @@ import SwiftUI
 struct ArchiVMLMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostList()
+                .environmentObject(PostManager(postService: { [] }))
         }
     }
 }
